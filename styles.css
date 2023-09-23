@@ -1,0 +1,354 @@
+.profile-picture {
+    width: 600px; /* Adjust the desired width */
+    height: 600px; /* Adjust the desired height */
+    object-fit: cover;
+}
+.profile-picture2 {
+    width: 550px; /* Adjust the desired width */
+    height: 850px; /* Adjust the desired height */
+}
+.profile-picture3 {
+    width: 850px; /* Adjust the desired width */
+    height: 275px; /* Adjust the desired height */
+    transform: rotate(-20deg);
+}
+.profile-picture4 {
+    width: 230px; /* Adjust the desired width */
+    height: 1200px; /* Adjust the desired height */
+}
+.profile-picture5 {
+    width: 350px; /* Adjust the desired width */
+    height: 470px; /* Adjust the desired height */
+}
+.springrollking {
+    width: 650px; /* Adjust the desired width */
+    height: 470px; /* Adjust the desired height */
+}
+.group1 {
+    width: 300px; /* Adjust the desired width */
+    height: 400px; /* Adjust the desired height */
+}
+.ribbon {
+    width: 900px; /* Adjust the desired width */
+    height: 600px; /* Adjust the desired height */
+}
+
+
+
+.rounded-button {
+    background-color: #6D9965; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 50px; /* Make it rounded */
+    padding: 15px 20px; /* Add some padding for spacing */
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.rounded-button:hover {
+    background-color: #455433; /* Change color on hover */
+}
+
+.experience-entry {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of the elements to align them to the right */
+    justify-content: flex-start; /* Align elements to the start of the container (right in a row-reverse layout) */
+    align-items: center; /* Center-align elements vertically */
+    margin: 0px; /* Add margin as needed */
+}
+
+.experience-entry-left {
+    display: flex;
+    flex-direction: row; /* Reverse the order of the elements to align them to the right */
+    justify-content: flex-start; /* Align elements to the start of the container (right in a row-reverse layout) */
+    align-items: center; /* Center-align elements vertically */
+    margin: 0px; 
+}
+
+.experience-img-left {
+    max-width: 200px; /* Adjust the maximum width of the image */
+    margin-right: 0px; /* Add spacing between the image and description */
+}
+
+.education-image {
+    max-width: 200px; /* Adjust the maximum width of the image */
+    margin-right: 0px; /* Add spacing between the image and description */
+}
+
+.education-image2 {
+    max-width: 170px; /* Adjust the maximum width of the image */
+    margin-right: 40px; /* Add spacing between the image and description */
+}
+
+.education-image3 {
+    max-width: 150px; /* Adjust the maximum width of the image */
+    margin-right: 0px; /* Add spacing between the image and description */
+}
+
+.education-image4 {
+    max-width: 170px; /* Adjust the maximum width of the image */
+    margin-right: 30px; /* Add spacing between the image and description */
+}
+
+.experience-image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    align-items: right;
+}
+
+.experience-details-left {
+    margin-left: 170px;
+    margin-right: 50px;
+}
+
+.experience-details {
+    margin-right: 200px;
+}
+
+.experience-details2 {
+    margin-right: 300px;
+}
+
+.experience-entry h2 {
+    font-size: 20px;
+    color: #6D9965; /* Color for the entry titles */
+}
+
+.experience-entry-left h2 {
+    font-size: 20px;
+    color: #6D9965; /* Color for the entry titles */
+}
+
+.club-container {
+    width: 15%; /* Adjust the width to control the number of containers per row */
+    height: 15%;
+    display: inline-block; /* Make the containers display inline */
+    margin: 40px; /* Add some spacing between containers */
+    vertical-align: top; /* Align containers to the top of their row */
+    /* Add any other styles you need for your project boxes */
+    border-radius: 1000px;
+}
+
+.club-box {
+    position: relative;
+    width: 100%;
+    border-radius: 1000px;
+}
+
+.club-box img {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 1000px;
+}
+
+.club-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bbd2b7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 1000px;
+    line-height: 1.5;
+}
+
+.club-box:hover .club-description {
+    opacity: 1;
+    border-radius: 1000px;
+}
+
+#projects {
+    text-align: center;
+}
+
+.project-container {
+    width: 35%; /* Adjust the width to control the number of containers per row */
+    display: inline-block; /* Make the containers display inline */
+    margin: 40px; /* Add some spacing between containers */
+    vertical-align: top; /* Align containers to the top of their row */
+    /* Add any other styles you need for your project boxes */
+    border-radius: 40px;
+}
+
+.project-box {
+    position: relative;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.project-box img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+.project-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bbd2b7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 40px;
+    line-height: 1.5;
+}
+
+.project-box:hover .project-description {
+    opacity: 1;
+    border-radius: 40px;
+}
+
+
+
+body {
+    background-color: #d4d9ce; /* Change the background color to #d4d9ce */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    font-family: 'Lombok', sans-serif; /* Set a default font for the entire page */
+}
+
+body p {
+    color: #455433;
+    letter-spacing: 1.5px;
+}
+
+/* Style the header */
+header {
+    background-color: #d4d9ce; /* Change the header background color to match the website background */
+    color: white;
+    text-align: center;
+    height: 100px; /* Adjust the desired height */
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center;
+    padding: 15px 20px; /* Add horizontal padding for spacing */
+    border-radius: 20px; /* Adjust the border-radius for rounded corners */
+    font-weight: bold;
+    margin: 10px;
+}
+
+header .header-left {
+    background-color: transparent; /* Add a transparent background */
+    text-align: left;
+    text-decoration: none;
+    color: #455433;
+    font-family: 'Lombok', sans-serif; /* Change the font family to Lato */
+    font-size: 20px; /* Adjust the font size */
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+    padding: 15px 15px; /* Add padding to make the links bigger */
+    border-radius: 25px; /* Add rounded corners to the links */
+    box-sizing:'border-box';
+}
+
+ul .header-right {
+    text-align: right;
+}
+
+
+/* Style the navigation links */
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox to evenly space out the navigation links */
+    justify-content: space-between; /* Spread the links evenly across the horizontal space */
+    width: 100%; /* Ensure the links fill the entire horizontal space */
+    margin-right: 40px;
+}
+
+header ul li {
+    margin-right: 40px;
+}
+
+header ul li:last-child {
+    margin-right: 0; /* Remove margin from the last link to prevent extra space */
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #455433;
+    font-family: 'Lombok', sans-serif; /* Change the font family to Lato */
+    font-size: 25px; /* Adjust the font size */
+    flex-grow: 1; /* Distribute remaining space equally among the links */
+    text-align: center; /* Center-align the link text */
+    letter-spacing: 2px;
+}
+
+/* Additional styles for other elements as needed */
+header h1, header p {
+    font-family: 'Lombok', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+
+header p {
+    font-family: 'Lombo', sans-serif;
+    font-size: 16px; /* Adjust the desired font size */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #455433;
+    /* Add transition for animation */
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
+    padding: 15px 30px; /* Add padding to make the links bigger */
+    border-radius: 25px; /* Add rounded corners to the links */
+}
+
+header nav ul li a:hover {
+    background-color: #6D9965; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+}
+
+header .header-left:hover {
+    background-color: #6D9965; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+}
+
+#about {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center; /* Vertically align the items in the center */
+}
+
+#profile-picture {
+    flex: 0 0 auto; /* Don't grow or shrink the profile picture */
+    margin-right: 20px; /* Add spacing between the picture and text */
+}
+
+#introduction {
+    flex: 1; /* Allow the introduction to grow and take remaining space */
+    text-align: center;
+}
+
+
