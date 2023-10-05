@@ -28,9 +28,13 @@
     width: 300px; /* Adjust the desired width */
     height: 400px; /* Adjust the desired height */
 }
-.ribbon {
-    width: 900px; /* Adjust the desired width */
-    height: 600px; /* Adjust the desired height */
+.group2 {
+    width: 1200px; /* Adjust the desired width */
+    height: 800px; /* Adjust the desired height */
+}
+.combined {
+    width: 1750px; /* Adjust the desired width */
+    height: 875px; /* Adjust the desired height */
 }
 
 
